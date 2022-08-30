@@ -1,0 +1,15 @@
+[package]
+name = "payment_processing_engine"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.1.6"
+serde ={ version="1.0.144", features= ["derive"]}
+clap = { version = "3.0.14", features = ["cargo"] }
+quick-error = "2.0.1"
+hashbrown = "0.12.3"
+tinyset = "0.4.14"
+lazy_static = "1.4.0"
